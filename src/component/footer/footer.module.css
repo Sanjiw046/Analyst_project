@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: column;   /* vertical stacking */
+  align-items: center;      /* center horizontally */
+  justify-content: center;  /* center vertically */
+  height: 80px;
+  width: 100%;
+  background-color: rgb(0 34 72);
+  padding: 5px 0;           /* small vertical padding */
+  box-sizing: border-box;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .copyright {
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;       /* small space below icons */
+  text-align: center;
+}

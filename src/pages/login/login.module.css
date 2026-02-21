@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(248, 234, 209);
+  padding: 20px;
+}
+
+.form {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(250, 169, 17);
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #2563eb;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.submitBtn {
+  background: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s;
+}
+
+.submitBtn:hover {
+  background: rgb(152, 100, 4);
+}
+
+.loginText {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.loginText a {
+  color: orange;
+  text-decoration: none;
+}
+
+.loginText a:hover {
+  text-decoration: underline;
+}

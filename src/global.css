@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.landingsec{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.articlesec{
+    background-image: url('bgImage.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.articlesec button{
+    padding: 30px;
+    font-size: 17px;
+    
+}
+
+

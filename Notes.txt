@@ -1,0 +1,3 @@
+// in this we see second way of routing createBrowserRouter
+//first go to the ProjectRouting.jsx
+//Layout is the first component

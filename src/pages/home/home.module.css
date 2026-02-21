@@ -1,0 +1,75 @@
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.fronthome {
+  display: flex;
+  width: 100%;
+  min-height: 99vh;
+  background-image: url('BackgroundWave.png');
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.fronthomefirst {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* LEFT SIDE */
+.firsthalf {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+}
+
+.homeText {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.firsthalf h3 {
+  color: rgb(205, 142, 27);
+}
+
+.firsthalf p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.firsthalf button {
+  padding: 10px 25px;
+  background: linear-gradient(to right, orange, orangered);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.3s ease;
+}
+
+.firsthalf button:hover {
+  opacity: 0.9;
+}
+
+/* RIGHT SIDE */
+.secondhalf {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondhalf img {
+  max-width: 100%;
+  height: auto;
+}

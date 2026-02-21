@@ -1,0 +1,35 @@
+{
+  "cart": [
+    {
+      "id": 1,
+      "courseId": 101,
+      "studentId": 1,
+      "quantity": 1
+    }
+  ],
+  "courses": [
+    {
+      "id": 101,
+      "title": "Web Development Bootcamp",
+      "category": "Web Development",
+      "price": 4999,
+      "duration": "3 Months",
+      "description": "Learn HTML, CSS, JavaScript, React, and Node.js with real projects.",
+      "image": "https://example.com/webdev.jpg"
+    },
+    {
+      "id": 102,
+      "title": "Data Science Masterclass",
+      "category": "Data Science",
+      "price": 6999,
+      "duration": "4 Months",
+      "description": "Master Python, Pandas, NumPy, and Machine Learning algorithms.",
+      "image": "https://example.com/datasci.jpg"
+    }
+  ],
+  "credentials": [
+    {
+      
+    }
+  ]
+}

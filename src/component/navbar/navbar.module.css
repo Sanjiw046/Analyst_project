@@ -1,0 +1,69 @@
+.navsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgb(167, 155, 111);
+    background: linear-gradient(to right, rgb(233, 194, 123), rgb(223, 140, 110));;
+}
+.itemdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    
+}
+.ulItem{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    align-items: center;
+}
+.navtext{
+    list-style: none;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.navtext:hover{
+    cursor: pointer;
+}
+.navtext:hover{
+    color: rgb(179, 83, 23);
+}
+.logodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    margin:11px 25px;
+}
+
+.btngroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginbtn {
+    padding: 8px 18px;
+    margin: 5px 20px;
+    background: linear-gradient(to right, orange, orangered);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nolink{
+    text-decoration: none;
+    color: inherit;
+}
+.btngroup{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
