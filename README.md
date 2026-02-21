@@ -1,12 +1,51 @@
-# React + Vite
+# Analytics Platform - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend application for the Analytics Platform built using:
 
-Currently, two official plugins are available:
+- React (Vite)
+- React Router
+- Axios
+- Context API
+- React Leaflet (Map Visualization)
+- JWT Authentication
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The frontend connects to a Django REST backend and provides:
 
-## Expanding the ESLint configuration
+- Secure Login / Signup
+- Role-Based Navigation
+- Analytics Dashboard
+- Interactive India Map
+- State-wise and City-wise filtering
+- Button click tracking
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- React (Vite)
+- React Router DOM
+- Axios
+- React Context API
+- React Leaflet
+- CSS Modules
+- React Toastify
+
+---
+
+## Authentication Flow
+
+1. User logs in via `/login`
+2. Backend returns:
+
+```json
+{
+  "user": {
+    "id": 1,
+    "username": "john",
+    "role": "admin"
+  },
+  "refresh": "jwt_refresh_token",
+  "access": "jwt_access_token"
+}
+```
+
